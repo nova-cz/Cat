@@ -14,7 +14,7 @@ function App() {
   return (
     <main className="board">
       <h1>GATO</h1>
-      <section className="game">
+      <section className="case">
         {
           board.map((cell, index) => {
             return (
